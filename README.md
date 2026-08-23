@@ -143,8 +143,7 @@ The model then generates prediction probabilities for the possible digits, and t
 <img src="https://skillicons.dev/icons?i=python" height="60">
 <img src="https://skillicons.dev/icons?i=numpy" height="60">
 
-<br><br>
-
+<br>
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
 <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
 <img src="https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white">
