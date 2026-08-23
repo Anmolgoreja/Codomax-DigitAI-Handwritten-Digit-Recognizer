@@ -8,10 +8,11 @@ A machine learning web application that recognizes handwritten digits **0–9** 
 
 <br>
 
-<a href="YOUR_STREAMLIT_LINK">
-  <img src="https://img.shields.io/badge/🚀_Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
+<a href="https://github.com/Anmolgoreja/Codomax-DigitAI-Handwritten-Digit-Recognizer">
+  <img src="https://img.shields.io/badge/🚀_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
-<a href="https://github.com/Anmolgoreja/DigitAI-Handwritten-Digit-Recognizer">
+
+<a href="https://github.com/Anmolgoreja/Codomax-DigitAI-Handwritten-Digit-Recognizer/blob/main/app.py">
   <img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
@@ -23,12 +24,6 @@ A machine learning web application that recognizes handwritten digits **0–9** 
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
 <img src="https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white">
 
-<br><br>
-
-<img src="https://img.shields.io/github/stars/Anmolgoreja/DigitAI-Handwritten-Digit-Recognizer?style=flat-square">
-<img src="https://img.shields.io/github/forks/Anmolgoreja/DigitAI-Handwritten-Digit-Recognizer?style=flat-square">
-<img src="https://img.shields.io/github/license/Anmolgoreja/DigitAI-Handwritten-Digit-Recognizer?style=flat-square">
-
 </div>
 
 ---
@@ -37,9 +32,9 @@ A machine learning web application that recognizes handwritten digits **0–9** 
 
 **DigitAI** is an AI-powered handwritten digit recognition application built with **Python, Machine Learning, and Streamlit**.
 
-The application allows users to either **draw a handwritten digit or upload an image**. The input is processed and passed to a trained machine learning model, which predicts the most likely digit and displays the **Top 3 predictions with confidence scores**.
+The application allows users to **draw a handwritten digit or upload an image**. The input is processed and passed to a trained machine learning model, which predicts the most likely digit and displays the **Top 3 predictions with confidence scores**.
 
-The project combines machine learning with an interactive web interface to create a simple and practical AI application.
+The project combines machine learning with an interactive web interface to create a simple, practical, and user-friendly AI application.
 
 ---
 
@@ -54,6 +49,7 @@ The project combines machine learning with an interactive web interface to creat
 Draw your handwritten digit directly inside the application.
 
 </td>
+
 <td width="50%">
 
 ### 🖼️ Upload Image
@@ -68,9 +64,10 @@ Upload an image containing a handwritten digit.
 
 ### 🤖 AI Prediction
 
-Uses a trained machine learning model to recognize digits from 0–9.
+Uses a trained machine learning model to recognize digits from **0–9**.
 
 </td>
+
 <td width="50%">
 
 ### 🏆 Top 3 Results
@@ -88,6 +85,7 @@ Displays the three most likely predictions with confidence scores.
 See how confident the model is about each prediction.
 
 </td>
+
 <td width="50%">
 
 ### ⚡ Interactive Interface
@@ -104,7 +102,8 @@ A clean and responsive Streamlit interface designed for easy interaction.
 
 <div align="center">
 
-<img src="screenshot.png" alt="DigitAI Application Preview" width="900">
+<img width="1021" height="943" alt="image" src="https://github.com/user-attachments/assets/a733cdd9-35fc-4180-8c2e-51445edb0779" />
+
 
 </div>
 
@@ -134,7 +133,7 @@ A clean and responsive Streamlit interface designed for easy interaction.
 
 The application converts the input image into numerical pixel data and processes it into the format expected by the trained model.
 
-The model then generates prediction probabilities for the possible digits and the application displays the **three highest-probability predictions**.
+The model then generates prediction probabilities for the possible digits, and the application displays the **three highest-probability predictions**.
 
 ---
 
@@ -158,24 +157,18 @@ The model then generates prediction probabilities for the possible digits and th
 ## 📂 Project Structure
 
 ```text
-DigitAI-Handwritten-Digit-Recognizer/
+Codomax-DigitAI-Handwritten-Digit-Recognizer/
 │
 ├── 📄 app.py
-├── 📄 train_model.py
-├── 🤖 model.pkl
 ├── 📦 requirements.txt
-├── 🖼️ screenshot.png
 └── 📖 README.md
 ```
 
-| File               | Description                     |
-| ------------------ | ------------------------------- |
-| `app.py`           | Main Streamlit application      |
-| `train_model.py`   | Machine learning model training |
-| `model.pkl`        | Saved trained model             |
-| `requirements.txt` | Project dependencies            |
-| `screenshot.png`   | Application preview             |
-| `README.md`        | Project documentation           |
+| File               | Description                   |
+| ------------------ | ----------------------------- |
+| `app.py`           | Main Streamlit application    |
+| `requirements.txt` | Required project dependencies |
+| `README.md`        | Project documentation         |
 
 ---
 
@@ -183,20 +176,20 @@ DigitAI-Handwritten-Digit-Recognizer/
 
 ### Prerequisites
 
-Make sure Python is installed on your system.
+Make sure **Python** is installed on your system.
 
 ### Installation
 
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/Anmolgoreja/DigitAI-Handwritten-Digit-Recognizer.git
+git clone https://github.com/Anmolgoreja/Codomax-DigitAI-Handwritten-Digit-Recognizer.git
 ```
 
 **2. Navigate to the project**
 
 ```bash
-cd DigitAI-Handwritten-Digit-Recognizer
+cd Codomax-DigitAI-Handwritten-Digit-Recognizer
 ```
 
 **3. Install dependencies**
@@ -208,8 +201,10 @@ pip install -r requirements.txt
 **4. Run the application**
 
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
+
+The application will open in your browser.
 
 ---
 
@@ -217,15 +212,17 @@ streamlit run app.py
 
 <div align="center">
 
-<a href="YOUR_STREAMLIT_LINK">
-<img src="https://img.shields.io/badge/🚀_TRY_DIGITAI_NOW-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
+<a href="https://github.com/Anmolgoreja/Codomax-DigitAI-Handwritten-Digit-Recognizer">
+  <img src="https://img.shields.io/badge/🚀_VIEW_PROJECT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
 </a>
 
 <br><br>
 
-<strong>Experience the handwritten digit recognizer directly in your browser.</strong>
+<strong>Try the DigitAI project and explore the source code.</strong>
 
 </div>
+
+> 🚀 **Live Streamlit deployment coming soon.**
 
 ---
 
@@ -241,21 +238,25 @@ For every input, the application displays:
 <th>Prediction</th>
 <th>Confidence</th>
 </tr>
+
 <tr>
 <td>🥇 1st</td>
 <td>Most likely digit</td>
 <td>Highest probability</td>
 </tr>
+
 <tr>
 <td>🥈 2nd</td>
 <td>Second most likely digit</td>
 <td>Second highest probability</td>
 </tr>
+
 <tr>
 <td>🥉 3rd</td>
 <td>Third most likely digit</td>
 <td>Third highest probability</td>
 </tr>
+
 </table>
 
 ---
@@ -269,7 +270,7 @@ This project provided practical experience with:
 * 🖼️ Image preprocessing
 * 🔢 Pixel-based feature processing
 * 📊 Prediction probabilities
-* 💾 Saving and loading ML models
+* 💾 Machine learning model integration
 * 🎨 Streamlit interface development
 * 🌐 ML application deployment
 
@@ -297,11 +298,11 @@ This project provided practical experience with:
 <br>
 
 <a href="https://github.com/Anmolgoreja">
-<img src="https://img.shields.io/badge/GitHub-Anmolgoreja-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/GitHub-Anmolgoreja-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
 <a href="YOUR_LINKEDIN_LINK">
-<img src="https://img.shields.io/badge/LinkedIn-Anmol_Goreja-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  <img src="https://img.shields.io/badge/LinkedIn-Anmol_Goreja-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
 </div>
